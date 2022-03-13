@@ -1,0 +1,17 @@
+name: wavelet-mdp
+channels:
+  - default
+  - pytorch
+  - conda-forge
+dependencies:
+  - opencv=3.4.2
+  - matplotlib=3.1.2
+  - numpy=1.19.5
+  - scikit-learn=0.24.2
+  - pip
+  - pip:
+    - Pillow==6.2.1
+    - tensorboardX==1.5
+    - scikit-image==0.16.2
+    - torch==1.8.0
+    - torchvision==0.9.0
